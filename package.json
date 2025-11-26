@@ -1,0 +1,30 @@
+{
+  "name": "compilador-svg",
+  "version": "1.0.0",
+  "main": "dist/main.js",
+   "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "dev": "ts-node src/main.ts",
+    "dev:watch": "tsc --watch",
+    "compile:run": "npm run build && npm run start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RaulRU30/compilador-svg.git"
+  },
+  "keywords": ["compiler", "svg", "typescript", "sbn"],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RaulRU30/compilador-svg/issues"
+  },
+  "homepage": "https://github.com/RaulRU30/compilador-svg#readme",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
